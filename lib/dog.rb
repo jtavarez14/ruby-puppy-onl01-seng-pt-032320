@@ -3,6 +3,6 @@ class Dog
   @@all = []
   def initialize(puppy)
     @puppy = puppy
-    @@all << puppy 
+    @@all << self
   end 
 end 
